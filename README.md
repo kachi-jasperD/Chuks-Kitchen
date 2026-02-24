@@ -13,10 +13,10 @@ centralized digital platform.
 
 ## 📌 Features
 
--   Register and manage user accounts\
--   Browse available meals\
--   Add meals to cart\
--   Place and manage orders\
+-   Register and manage user accounts
+-   Browse available meals
+-   Add meals to cart
+-   Place and manage orders
 -   Track order activity
 
 The system is built to streamline food ordering operations while
@@ -27,9 +27,9 @@ platform.
 
 ## 🛠 Tech Stack
 
--   **Backend:** Node.js, Express.js\
--   **Database:** MongoDB\
--   **API Style:** RESTful APIs\
+-   **Backend:** Node.js, Express.js
+-   **Database:** MongoDB
+-   **API Style:** RESTful APIs
 -   **Tools:** npm, Postman (for API testing)
 
 ------------------------------------------------------------------------
