@@ -1,0 +1,32 @@
+flowchart TD
+
+A[User Opens App] --> B[Browse Meals]
+B --> C[View Meal Details]
+C --> D{User Logged In?}
+
+D -->|No| E[Register / Login]
+E --> B
+
+D -->|Yes| F[Add Item To Cart]
+F --> G[View Cart]
+G --> H[Modify Quantity / Remove Item]
+
+H --> I{Proceed To Checkout?}
+I -->|No| G
+I -->|Yes| J[Create Order From Cart]
+
+J --> K[Order Status: CREATED]
+
+K --> L[Add Delivery Details]
+L --> M[Order Status: DELIVERY_ADDED]
+
+M --> N[Add Payment Details]
+N --> O[Order Status: PAID]
+
+O --> P{Admin Updates Status}
+P --> Q[PREPARING]
+Q --> R[OUT FOR DELIVERY]
+R --> S[DELIVERED]
+
+O --> T[User Can Cancel Before Delivery]
+T --> U[Order Status: CANCELLED]
