@@ -87,8 +87,18 @@ http://localhost:5030
 
 ## 📂 Project Deliverables
 
--   ERD Diagram\
--   Flow Chart\
+-   ERD Diagram
+  
+ ERD Diagram:\
+<img width="2430" height="2455" alt="Image" src="https://github.com/user-attachments/assets/de043d5c-1080-4569-9e55-728eb7856c1e" />
+
+
+-   Flow Chart
+  
+Flow Chart:\
+<img width="1989" height="8192" alt="User Meal Order Flow-2026-02-24-111648" src="https://github.com/user-attachments/assets/fd8ec9e8-889d-4e03-a98f-2324196c7693" />
+
+
 -   API Documentation
 
 API Documentation:\
