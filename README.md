@@ -81,7 +81,7 @@ npm run dev
 
 The server will start at:
 
-http://localhost:5030
+https://chuks-kitchen-eight.vercel.app/
 
 ------------------------------------------------------------------------
 
@@ -102,7 +102,7 @@ Flow Chart:\
 -   API Documentation
 
 API Documentation:\
-https://documenter.getpostman.com/view/2449601/2sBXcDGMJL#7b8f1d1e-66c0-47c5-9f87-79d9a78664c4
+https://documenter.getpostman.com/view/2449601/2sBXcDGMJL
 
 ------------------------------------------------------------------------
 
