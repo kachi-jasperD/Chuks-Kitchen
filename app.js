@@ -3,8 +3,7 @@ const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
-const {connectDB} = require("./db/config/database");
-
+const { connectDB } = require("./db/config/database");
 
 dotenv.config();
 const app = express();
@@ -23,16 +22,26 @@ connectDB();
 // ----------------------
 // Routes
 // ----------------------
+
+// Root route
+app.get("/", (req, res) => {
+  res.send("Chuks Kitchen API is running");
+});
+
+// API health check
+app.get("/api", (req, res) => {
+  res.json({ message: "Chuks Kitchen API is running" });
+});
+
 app.use("/api/auth", require("./routes/auth.routes"));
 app.use("/api/foods", require("./routes/food.routes"));
 app.use("/api/cart", require("./routes/cart.routes"));
 app.use("/api/orders", require("./routes/order.routes"));
 app.use("/api/users", require("./routes/user.routes"));
 
-
 // Catch-all route for unknown paths
 app.use((req, res) => {
-  res.status(404).json({ message: "Route not found" });
+  res.status(404).json({ message: "Route not foundnnn" });
 });
 
 // Global error handler (optional)
